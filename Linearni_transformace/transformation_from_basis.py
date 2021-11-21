@@ -116,9 +116,9 @@ class AnotherBasis(LinearTransformationScene):
             }
         )
     def construct(self):
-        rect_w = 7
+        rect_w = 6.2
         rect_h=1.5
-        rect = Rectangle(color=BLACK, height=rect_h, width=rect_w, fill_opacity=1).shift(rect_w/2*LEFT+(4-(rect_h/2))*UP).set_z_index(1)
+        rect = Rectangle(color=BLACK, height=rect_h, width=rect_w, fill_opacity=1).shift(rect_w/2*LEFT+0.8*LEFT+(4-(rect_h/2))*UP).set_z_index(1).set_opacity(0.7)
         self.add(rect)
         text = MathTex(r"A(\vec{x})").shift((4-(rect_h/2))*UP).align_to(rect, LEFT).set_z_index(2)
         self.add(text)
