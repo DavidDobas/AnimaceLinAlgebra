@@ -1,2 +1,2 @@
-# Animace lineární algebra
-Zde se nacházejí zdrojové kódy k animacím pro přednášku lineární algebry na FJFI
+# Animations Linear Algebra
+Here one can find the manim animations for the Linear Algebra course at FNSPE CTU in Prague.
